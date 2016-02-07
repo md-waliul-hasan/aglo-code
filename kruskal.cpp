@@ -22,7 +22,7 @@ int main(){
          
         int TOTAL=0;
              
-        for(int i=1;i<=node;i++) Prev[i]=i;//*
+        for(int i=1;i<=node;i++) Prev[i]=i;
         for(int i=0;i<edge;i++) scanf("%d%d%d",&E[i].a,&E[i].b,&E[i].w);
          
         sort(E,E+edge);
